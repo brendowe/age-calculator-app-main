@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    font-family: "Poppins", sans-serif;;
+}
+
+main {
+    background-color: white;
+    height: 500px;
+    width: 320px;
+    border-radius: 20px 20px 130px 20px;
+    padding: 30px;
+    display: flex;    
+    flex-flow: column nowrap;
+}
+
+#data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dataArea {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+input {
+    width: 90px;
+    height: 50px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(173, 171, 171);
+}
+
+.spanErro {
+    display: none;
+    color: red;
+    font-size: 10px;
+}
+
+.labelErro {
+    font-weight: 400;
+    color: red;
+}
+
+.inputErro {
+    border: 1px solid red;
+}
+
+#areaBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(0, 0%, 86%);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    border: 0px;
+}
+
+button {
+    background-color: blueviolet;
+    border-radius: 50%;
+    border: 0px;
+    width: 80px;
+    height: 75px;
+    position: absolute;
+    z-index: 1;
+}
+
+#resultado {
+    font-size: 58px;
+    font-weight: 800;
+}
+
+#resultado p {
+    margin: 0;
+}
+
+#resultado span {
+    color: hsl(259, 100%, 65%);
+}
+
+
