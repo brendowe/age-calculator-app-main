@@ -72,7 +72,7 @@ hr {
     background-color: hsl(0, 0%, 86%);
     width: 100%;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     border: 0px;
 }
 
@@ -84,6 +84,10 @@ button {
     height: 75px;
     position: absolute;
     z-index: 1;
+}
+
+button:hover {
+    background-color: black;
 }
 
 #resultado {
@@ -99,4 +103,31 @@ button {
     color: hsl(259, 100%, 65%);
 }
 
+
+@media (min-width: 800px) {
+    
+    main {
+        width: 500px;
+    }
+
+    #data {
+        justify-content: flex-start;
+    }
+
+    #data div {
+        margin-right: 40px;
+    }
+
+    #data input {
+        padding-left: 10px;
+    }
+
+    #areaBtn {
+        justify-content: right;
+    } 
+
+    #resultado {
+        font-size: 70px;
+    }
+}
 
